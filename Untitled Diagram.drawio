@@ -1,14 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T10:41:56.226Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400" etag="XhxXqhVNm7BTR7s_ms2t" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T11:17:10.785Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400" etag="dkPn_0VVA-SZy55-GJw_" version="17.4.6" type="github">
   <diagram id="txYS68oM8L8IoYxhN3mP" name="第 1 页">
-    <mxGraphModel dx="1673" dy="1048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KtS-W3OxPsB-stWvo-86-1" target="Dw9Zfhu1xi2oYvi9SeaP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-20" value="播放完" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dw9Zfhu1xi2oYvi9SeaP-19">
+          <mxGeometry x="0.1111" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KtS-W3OxPsB-stWvo-86-1" value="CrouchDown&lt;br&gt;下蹲过程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="1980" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KtS-W3OxPsB-stWvo-86-177" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="420" y="250" width="650" height="600" as="geometry" />
+          <mxGeometry x="30" y="610" width="650" height="600" as="geometry" />
         </mxCell>
         <mxCell id="KtS-W3OxPsB-stWvo-86-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="KtS-W3OxPsB-stWvo-86-177" vertex="1">
           <mxGeometry width="650" height="600" as="geometry" />
@@ -42,6 +50,27 @@
         </mxCell>
         <mxCell id="KtS-W3OxPsB-stWvo-86-176" value="Triggers" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=18;" parent="KtS-W3OxPsB-stWvo-86-177" vertex="1">
           <mxGeometry x="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-12" value="Idle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-13" value="FindCoverCrouchState&lt;br&gt;站立移动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1955" y="540" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-14" value="FindCoverRunState&lt;br&gt;蹲着移动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-15" value="Surrender" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dw9Zfhu1xi2oYvi9SeaP-17" target="Dw9Zfhu1xi2oYvi9SeaP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-17" value="Shoot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1955" y="650" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-18" value="Crouch&lt;br&gt;下蹲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
