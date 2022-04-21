@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T11:52:12.255Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400" etag="MYdKTP_3kNOSYJzQfOiS" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T11:55:24.917Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400" etag="S7I1wfKYok-9KCTJzyKc" version="17.4.6" type="github">
   <diagram id="txYS68oM8L8IoYxhN3mP" name="第 1 页">
     <mxGraphModel dx="1422" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
       <root>
@@ -7,8 +7,13 @@
         <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KtS-W3OxPsB-stWvo-86-1" target="Dw9Zfhu1xi2oYvi9SeaP-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-69" value="ReachTimer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dw9Zfhu1xi2oYvi9SeaP-52">
+          <mxGeometry x="0.3556" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KtS-W3OxPsB-stWvo-86-1" value="CrouchDown&lt;br&gt;下蹲过程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2170" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="2160" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KtS-W3OxPsB-stWvo-86-177" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1170" y="660" width="650" height="600" as="geometry" />
@@ -63,13 +68,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-12" value="Idle待机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="300" width="80" height="60" as="geometry" />
+          <mxGeometry x="1520" y="260" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-13" value="FindCoverCrouchState&lt;br&gt;站立移动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="530" width="170" height="60" as="geometry" />
+          <mxGeometry x="1710" y="520" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-14" value="FindCoverRunState&lt;br&gt;蹲着移动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2320" y="190" width="170" height="60" as="geometry" />
+          <mxGeometry x="2375" y="90" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dw9Zfhu1xi2oYvi9SeaP-15" target="Dw9Zfhu1xi2oYvi9SeaP-17">
           <mxGeometry relative="1" as="geometry" />
@@ -88,6 +93,11 @@
         <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dw9Zfhu1xi2oYvi9SeaP-17" target="KtS-W3OxPsB-stWvo-86-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-68" value="&lt;span style=&quot;font-size: 10px ; background-color: rgb(248 , 249 , 250)&quot;&gt;TrainerWithinSight&amp;amp;Random&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dw9Zfhu1xi2oYvi9SeaP-50">
+          <mxGeometry x="-0.0783" y="-5" relative="1" as="geometry">
+            <mxPoint x="-5" y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-17" value="Shoot射击" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1975" y="490" width="170" height="60" as="geometry" />
         </mxCell>
@@ -95,7 +105,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-18" value="Crouch&lt;br&gt;下蹲&amp;amp;射击" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2345" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="2425" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dw9Zfhu1xi2oYvi9SeaP-40" target="Dw9Zfhu1xi2oYvi9SeaP-43">
           <mxGeometry relative="1" as="geometry" />
@@ -159,8 +169,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dw9Zfhu1xi2oYvi9SeaP-51" target="Dw9Zfhu1xi2oYvi9SeaP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-73" value="&lt;span style=&quot;font-size: 10px ; background-color: rgb(248 , 249 , 250)&quot;&gt;JudgeCoverType(Door)&amp;amp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(248 , 249 , 250)&quot;&gt;TrainerWithinSigh&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dw9Zfhu1xi2oYvi9SeaP-71">
+          <mxGeometry x="-0.4526" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Dw9Zfhu1xi2oYvi9SeaP-51" value="CrouchGuard蹲着戒备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2320" y="370" width="170" height="60" as="geometry" />
+          <mxGeometry x="2375" y="310" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
