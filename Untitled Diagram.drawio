@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T07:44:24.627Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400" etag="Fnst7rWRFGqjxVQM_sPC" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-24T07:48:29.684Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400" etag="Qur64OejRHRXWs3dMTy-" version="17.4.6" type="github">
   <diagram id="txYS68oM8L8IoYxhN3mP" name="第 1 页">
-    <mxGraphModel dx="569" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -252,11 +252,16 @@
             <mxPoint x="45" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vj8TcS758Ldo8U_q7TWz-9" value="冲向敌人前面25%&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vj8TcS758Ldo8U_q7TWz-3">
-          <mxGeometry x="490" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="Vj8TcS758Ldo8U_q7TWz-43" value="75%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vj8TcS758Ldo8U_q7TWz-37">
+          <mxGeometry x="0.7676" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vj8TcS758Ldo8U_q7TWz-9" value="冲向敌人前面15%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vj8TcS758Ldo8U_q7TWz-3">
+          <mxGeometry x="450" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vj8TcS758Ldo8U_q7TWz-16" value="优先判断掩体蹲门换掩体逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vj8TcS758Ldo8U_q7TWz-3">
-          <mxGeometry x="530" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vj8TcS758Ldo8U_q7TWz-19" value="&lt;br&gt;冲向敌人打10%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vj8TcS758Ldo8U_q7TWz-3">
           <mxGeometry x="260" y="270" width="120" height="60" as="geometry" />
@@ -273,11 +278,22 @@
         <mxCell id="Vj8TcS758Ldo8U_q7TWz-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Vj8TcS758Ldo8U_q7TWz-3" source="Vj8TcS758Ldo8U_q7TWz-39" target="Vj8TcS758Ldo8U_q7TWz-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vj8TcS758Ldo8U_q7TWz-39" value="找掩体75%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vj8TcS758Ldo8U_q7TWz-3">
-          <mxGeometry x="620" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="Vj8TcS758Ldo8U_q7TWz-44" value="25%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vj8TcS758Ldo8U_q7TWz-42">
+          <mxGeometry x="0.512" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vj8TcS758Ldo8U_q7TWz-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Vj8TcS758Ldo8U_q7TWz-3" source="Vj8TcS758Ldo8U_q7TWz-39" target="Vj8TcS758Ldo8U_q7TWz-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj8TcS758Ldo8U_q7TWz-39" value="找掩体85%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vj8TcS758Ldo8U_q7TWz-3">
+          <mxGeometry x="620" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vj8TcS758Ldo8U_q7TWz-41" value="冲向敌人前面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vj8TcS758Ldo8U_q7TWz-3">
           <mxGeometry x="640" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj8TcS758Ldo8U_q7TWz-46" value="去掩体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vj8TcS758Ldo8U_q7TWz-3">
+          <mxGeometry x="790" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
